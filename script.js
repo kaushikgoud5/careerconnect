@@ -26,5 +26,16 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-var delay = 4000; 
-setTimeout(function(){ window.location.href = 'main.html'; }, delay);
+
+
+function redirectmain() {
+  window.location.href = 'main.html';
+}
+
+function redirectup(){
+  window.location.href = "login.html";
+}
+
+function redirectsignup() {
+  window.location.href = "signup.html";
+}
