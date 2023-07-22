@@ -28,3 +28,6 @@ setTimeout(()=>{
     })
 
 })
+function goTo() {
+    window.location.href = "index.html";
+}
