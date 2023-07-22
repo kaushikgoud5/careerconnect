@@ -22,9 +22,9 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       intro.style.top = "-100vh";
     }, 2300);
+
   });
 });
 
-function goTo() {
-    window.location.href = "main.html";
-}
+var delay = 4000; 
+setTimeout(function(){ window.location.href = 'main.html'; }, delay);
