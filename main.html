@@ -22,41 +22,18 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#"
-          ><img width="114" height="68" src="assets/img/logo1.png" /></a
-        ><button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-5"
-        >
-          <span class="visually-hidden">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-5">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"></li>
-            <li class="nav-item"></li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                style="color: var(--bs-emphasis-color)"
-                >Already a user ?</a
-              >
-            </li>
-          </ul>
-          <a
-            class="btn btn-primary ms-md-2"
-            role="button"
-            href="#"
-            onclick="redirectup()"
-            ><strong>Log in</strong></a
-          >
-        </div>
+    <nav class="navbar navbar-expand-md bg-body py-3">
+      <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="assets/img/logo1.png" width="171" height="60" style="height: 60px;">
+          <div class="collapse navbar-collapse" id="navcol-2">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#"><strong>Already a user?</strong></a></li>
+                  <li class="nav-item"></li>
+                  <li class="nav-item"></li>
+              </ul>
+              <button class="btn btn-primary ms-md-2" role="button" onclick="redirectup()"><strong>Log in</strong></button>
+          </div>
       </div>
-    </nav>
+  </nav>
     <header
       class="text-center text-white masthead"
       style="
@@ -132,59 +109,6 @@
         </div>
       </div>
     </section>
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row g-0">
-          <div
-            class="col-lg-6 text-white order-lg-2 showcase-img"
-            style="background-image: url('assets/img/bg-showcase-1.jpg')"
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">
-              When you use a theme created with Bootstrap, you know that the
-              theme will look great on any device, whether it's a phone, tablet,
-              or desktop the page will behave responsively!
-            </p>
-          </div>
-        </div>
-        <div class="row g-0">
-          <div
-            class="col-lg-6 text-white showcase-img"
-            style="background-image: url('assets/img/bg-showcase-2.jpg')"
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-            <h2>Updated For Bootstrap 5</h2>
-            <p class="lead mb-0">
-              Newly improved, and full of great utility classes, Bootstrap 5 is
-              leading the way in mobile responsive web development! All of the
-              themes are now using Bootstrap 5!
-            </p>
-          </div>
-        </div>
-        <div class="row g-0">
-          <div
-            class="col-lg-6 text-white order-lg-2 showcase-img"
-            style="background-image: url('assets/img/bg-showcase-3.jpg')"
-          >
-            <span></span>
-          </div>
-          <div class="col-lg-6 my-auto order-lg-1 showcase-text">
-            <h2>Easy to Use &amp;&nbsp;Customize</h2>
-            <p class="lead mb-0">
-              Landing Page is just HTML and CSS with a splash of SCSS for users
-              who demand some deeper customization options. Out of the box, just
-              add your content and images, and your new landing page will be
-              ready to go!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="text-center bg-light testimonials">
       <div class="container">
         <h2 class="mb-5">What people are saying...</h2>
@@ -230,40 +154,24 @@
         </div>
       </div>
     </section>
-    <section
-      class="text-center text-white call-to-action"
-      style="
-        background: url('assets/img/bg-masthead.jpg') no-repeat center center;
-        background-size: cover;
-      "
-    >
+    <section class="text-center text-white call-to-action" style="background:url(&quot;assets/img/bg-masthead.jpg&quot;) no-repeat center center;background-size:cover;">
       <div class="overlay"></div>
       <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto position-relative">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
-            <form>
-              <div class="row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input
-                    class="form-control form-control-lg"
-                    type="email"
-                    placeholder="Enter your email..."
-                  />
-                </div>
-                <div class="col-12 col-md-3">
-                  <button class="btn btn-primary btn-lg" type="submit">
-                    Sign up!
-                  </button>
-                </div>
+          <div class="row">
+              <div class="col-xl-9 mx-auto position-relative">
+                  <h2 class="mb-4">Subscribe to our News Letter !!!</h2>
               </div>
-            </form>
+              <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
+                  <form>
+                      <div class="row">
+                          <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..."></div>
+                          <div class="col-12 col-md-3"><button class="btn btn-primary btn-lg" type="submit">Subscribe</button></div>
+                      </div>
+                  </form>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
     <footer class="bg-light footer">
       <div class="container">
         <div class="row">
