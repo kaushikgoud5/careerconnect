@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+ /* {
+  background-image: url(https://media.giphy.com/media/RiykPw9tgdOylwFgUe/giphy.gif)
+} */
 header {
   position: relative;
   left: 0;
@@ -70,13 +73,13 @@ p {
     to right,
     #15100a,
     #282623,
-    #585856
+    #0c0c0c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #15100a,
-    #282623,
-    #585856
+    #121111,
+    #0c0c0c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
