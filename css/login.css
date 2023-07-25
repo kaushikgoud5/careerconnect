@@ -1,0 +1,44 @@
+/* --------------------Login Page--------------------------------------------- */
+section {
+  background-color: #f3f2f1;
+}
+img {
+  width: 200px;
+}
+p {
+  font-family: sans-serif;
+}
+.gradient-custom-2 {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #15100a,
+    #282623,
+    #0c0c0c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #15100a,
+    #121111,
+    #0c0c0c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+#sign-up-img {
+  /* height: 50%; */
+  width: 100px;
+}
+
+/* --------------------Login Page End--------------------------------------------- */
