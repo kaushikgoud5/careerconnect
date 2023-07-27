@@ -22,17 +22,14 @@ window.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       intro.style.top = "-100vh";
     }, 2300);
-
   });
 });
 
-
-
 function redirectmain() {
-  window.location.href = 'main.html';
+  window.location.href = "main.html";
 }
 
-function redirectup(){
+function redirectup() {
   window.location.href = "login.html";
 }
 
